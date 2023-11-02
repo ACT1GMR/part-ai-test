@@ -8,7 +8,7 @@ export default function NotFound() {
       <h1 className={styles.NotFound}>
         Page Not Found Sorry
         <br />
-        <Link to='..'>Home</Link>
+        <Link to='/part-ai-test'>Home</Link>
       </h1>
     </>
   );

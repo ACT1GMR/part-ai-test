@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className='text-c flex items-center justify-center'>
       {gridData && (
-        <Grid onRowClick={(id) => navigate(`/${id}`)} gridData={gridData} />
+        <Grid onRowClick={(id) => navigate(`/part-ai-test/${id}`)} gridData={gridData} />
       )}
       {isLoading && <BarLoader color='#36d7b7' />}
     </div>

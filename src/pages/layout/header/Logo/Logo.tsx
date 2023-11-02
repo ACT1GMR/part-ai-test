@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Logo() {
   return (
     <div className='flex-none'>
-      <Link to='/'>
+      <Link to='/part-ai-test'>
         <img src={logo} alt={localization.logo} />
       </Link>
     </div>

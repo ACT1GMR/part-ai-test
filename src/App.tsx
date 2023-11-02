@@ -13,7 +13,7 @@ import NotFound from './pages/layout/NotFound';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='' element={<Layout />}>
+    <Route  path='part-ai-test' element={<Layout />}>
       <Route index element={<Home />} />
       <Route path=':userId' element={<Edit />} />
       <Route path='*' element={<NotFound />} />

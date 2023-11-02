@@ -34,6 +34,6 @@ async function afterSuccessMutation(userId, { navigate, queryClient }) {
   await queryClient.invalidateQueries({
     queryKey: ['FETCH_USERS', ['FETCH_USER', userId]],
   });
-  navigate('/');
+  navigate('/part-ai-test');
   return '';
 }
